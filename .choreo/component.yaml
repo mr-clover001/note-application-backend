@@ -1,0 +1,6 @@
+schemaVersion: 1.0
+endpoints:
+  - name: my-service-endpoint
+    service:
+      port: 3000  # Replace 3000 with your application's port
+    type: REST
