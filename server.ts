@@ -19,7 +19,7 @@ app.use(cors()); // Enable CORS for all routes
 app.use('/api/users', userRoutes); 
 app.use('/api/notes', noteRoutes);
 
-const PORT = process.env.PORT || 3000; 
+const PORT = process.env.PORT || 9090; 
 
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
